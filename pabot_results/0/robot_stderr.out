@@ -1,0 +1,3 @@
+[ ERROR ] Error in file 'C:\Dev\Robotframework_Automation\TestCases\ParallelTest\SuiteA.robot' on line 2: Non-existing setting 'Test Suite Setup'.
+[ ERROR ] Error in file 'C:\Dev\Robotframework_Automation\TestCases\ParallelTest\SuiteA.robot' on line 3: Non-existing setting 'Test Suite Teardown'. Did you mean:
+    Suite Teardown

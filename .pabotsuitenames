@@ -1,0 +1,6 @@
+datasources:bb2290c3140c9b21dc36f66d1301e2da46649dc2
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:ef3bc55f693bff8664d9358e34369c181bfb6ee5
+--suite ParallelTest.SuiteA
+--suite ParallelTest.SuiteB

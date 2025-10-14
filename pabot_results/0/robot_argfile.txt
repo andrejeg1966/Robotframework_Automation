@@ -1,0 +1,16 @@
+--suite ParallelTest.SuiteA
+--variable CALLER_ID:a83b28d38f1e49e3a6949e036f6b20be
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:0
+--variable PABOTLASTLEVEL:ParallelTest.SuiteA
+--listener RobotStackTracer
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\0
+--consolecolors off
+--consolemarkers off
+.\TestCases\ParallelTest\
