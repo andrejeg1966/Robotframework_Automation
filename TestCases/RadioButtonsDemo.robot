@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${browser}  chrome
-${url_checkbox}  https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php
+${url_checkbox}      https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php
 ${url_radiobuttons}  https://www.selenium.dev/selenium/web/inputs.html
 
 *** Test Cases ***

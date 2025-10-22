@@ -22,4 +22,4 @@ Empty User Name and Password
 *** Keywords ***
 Login with invalid credentials should fail
     [Arguments]    ${username}    ${password}
-    Log Many    ${username}    ${password}
+    Log Many       ${username}    ${password}

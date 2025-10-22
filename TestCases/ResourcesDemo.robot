@@ -13,7 +13,6 @@ Test Teardown   CommonFunctionality.Finish test case
 TC_Verify_basic_search_eBay
     [Documentation]     This test case verifies the basic search
     [Tags]              Funtional
-
     HeaderPage.Input Search text and Click Search
     SearchResultPage.Verify Search Result
 
