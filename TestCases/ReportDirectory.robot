@@ -10,6 +10,6 @@ This is simple test case
 
     open browser        https://www.google.com/     chrome
     close browser
-    #Execute command: robot -d Results .\TestCases\Google\FunctionalTestSuite\GoogleSearch.robot
+    #Execute command: robot -d Results .\TestCases\GoogleSearch.robot
 
 *** Keywords ***

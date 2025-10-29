@@ -1,5 +1,5 @@
 *** Settings ***
-Library  SeleniumLibrary
+Library     SeleniumLibrary
 Resource    ../Resources/POM_LoginKeywords.robot
 
 *** Variables ***

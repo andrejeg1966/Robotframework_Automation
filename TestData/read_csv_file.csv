@@ -1,0 +1,4 @@
+${URL};${Strings}
+https://www.yahoo.com;Robotframework;
+https://www.yahoo.com;python;
+https://www.google.com;java;

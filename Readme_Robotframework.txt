@@ -38,6 +38,9 @@ Database
 1. Install in PyCharm File/Setting/Python Interpreter: robotframework-databaselibrary
 2. Install in PyCharm File/Setting/Python Interpreter: PyMySQL
 
+Webrowser.
+1. pip install robotframework-browser
+2. run command in cmd also in robotframework terminal: rfbrowser init
 
 
 

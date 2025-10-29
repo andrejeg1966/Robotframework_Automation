@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2025-10-21T16:00:39.708697" rpa="false" schemaversion="5">
+<suite id="s1" name="ParallelTest" source="C:\Dev\Robotframework_Automation\ParallelTest">
+<suite id="s1-s1" name="SuiteA" source="C:\Dev\Robotframework_Automation\ParallelTest\SuiteA.robot">
+<test id="s1-s1-t1" name="Test Case 3" line="14">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2025-10-21T16:00:39.754260" level="INFO">Test Setup</msg>
+<arg>Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-10-21T16:00:39.753939" elapsed="0.000410"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-10-21T16:00:39.754845" level="INFO">Test Case 3</msg>
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-10-21T16:00:39.754603" elapsed="0.000333"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-21T16:00:49.756093" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-21T16:00:39.755091" elapsed="10.001252"/>
+</kw>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2025-10-21T16:00:49.757533" level="INFO">Test Teardown</msg>
+<arg>Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-10-21T16:00:49.756966" elapsed="0.000698"/>
+</kw>
+<status status="PASS" start="2025-10-21T16:00:39.752948" elapsed="10.004867"/>
+</test>
+<status status="PASS" start="2025-10-21T16:00:39.751087" elapsed="10.008168"/>
+</suite>
+<status status="PASS" start="2025-10-21T16:00:39.733006" elapsed="10.027989"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="ParallelTest" id="s1" pass="1" fail="0" skip="0">ParallelTest</stat>
+<stat name="SuiteA" id="s1-s1" pass="1" fail="0" skip="0">ParallelTest.SuiteA</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

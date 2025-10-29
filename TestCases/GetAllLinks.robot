@@ -5,7 +5,7 @@ Library  SeleniumLibrary
 GetAllLinksText
     open browser    https://demo.nopcommerce.com/   chrome
     Maximize Browser Window
-    ${AllLinksText}=    getelement count    xpat://a
+    ${AllLinksText}=    getelement count    xpath://a
     log to console      ${AllLinksText}
     FOR     ${item}     IN  RANGE   1  ${AllLinksText}+1
         ${linkText}=    get text    xpath:(//a)[${item}]

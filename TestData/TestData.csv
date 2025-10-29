@@ -1,0 +1,6 @@
+${username};${password};${error_msg}
+"";"";Epic sadface: Username is required;
+locked_out_user;secret_sauce;Epic sadface: Sorry, this user has been locked out;
+standard_us;secret_s;Epic sadface: Username and password do not match any user in this service;
+standard_user;secret_s;Epic sadface: Username and password do not match any user in this service
+standard_us;secret_sauce;Epic sadface: Username and password do not match any user in this service

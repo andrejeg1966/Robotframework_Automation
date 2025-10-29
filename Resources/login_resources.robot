@@ -18,7 +18,8 @@ open login page
 
 input username
     [Arguments]     ${username}
-    input text      id:Email    ${username}
+    input text      xpath://input[@id='Email']    ${username}
+    sleep           5s
 
 input pwd
     [Arguments]     ${password}

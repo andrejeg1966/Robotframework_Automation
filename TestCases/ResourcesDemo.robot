@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation   Basic search functionality
-Resource        ../../Resources/CommonFunctionality.robot
-Resource        ../../Resources/PageObjects/HeaderPage.robot
-Resource        ../../Resources/PageObjects/SearchResultPage.robot
+Resource        ../Resources/CommonFunctionality.robot
+Resource        ../Resources/PageObjects/HeaderPage.robot
+Resource        ../Resources/PageObjects/SearchResultPage.robot
 
 Test Setup      CommonFunctionality.Start test case
 Test Teardown   CommonFunctionality.Finish test case

@@ -1,70 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2025-10-10T13:55:41.341265" rpa="false" schemaversion="5">
-<suite id="s1" name="ParallelTest" source="C:\Dev\Robotframework_Automation\TestCases\ParallelTest">
-<suite id="s1-s1" name="SuiteB" source="C:\Dev\Robotframework_Automation\TestCases\ParallelTest\SuiteB.robot">
-<test id="s1-s1-t1" name="Test Case A" line="2">
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-10-10T13:55:41.371253" level="INFO">Test Case A</msg>
-<arg>Test Case A</arg>
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2025-10-21T16:00:39.707570" rpa="false" schemaversion="5">
+<suite id="s1" name="ParallelTest" source="C:\Dev\Robotframework_Automation\ParallelTest">
+<suite id="s1-s1" name="SuiteA" source="C:\Dev\Robotframework_Automation\ParallelTest\SuiteA.robot">
+<test id="s1-s1-t1" name="Test Case 2" line="10">
+<kw name="Log" owner="BuiltIn" type="SETUP">
+<msg time="2025-10-21T16:00:39.754585" level="INFO">Test Setup</msg>
+<arg>Test Setup</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-10-10T13:55:41.371092" elapsed="0.000214"/>
+<status status="PASS" start="2025-10-21T16:00:39.754247" elapsed="0.000435"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-10-21T16:00:39.755166" level="INFO">Test Case 2</msg>
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-10-21T16:00:39.754931" elapsed="0.000310"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-10-10T13:55:51.372461" level="INFO">Slept 10 seconds.</msg>
+<msg time="2025-10-21T16:00:49.756192" level="INFO">Slept 10 seconds.</msg>
 <arg>10s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-10-10T13:55:41.371432" elapsed="10.001299"/>
+<status status="PASS" start="2025-10-21T16:00:39.755374" elapsed="10.001062"/>
 </kw>
-<status status="PASS" start="2025-10-10T13:55:41.370544" elapsed="10.002611"/>
-</test>
-<test id="s1-s1-t2" name="Test Case B" line="6">
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-10-10T13:55:51.375582" level="INFO">Test Case B</msg>
-<arg>Test Case B</arg>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2025-10-21T16:00:49.757654" level="INFO">Test Teardown</msg>
+<arg>Test Teardown</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-10-10T13:55:51.375198" elapsed="0.000510"/>
+<status status="PASS" start="2025-10-21T16:00:49.757074" elapsed="0.000719"/>
 </kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-10-10T13:56:01.376870" level="INFO">Slept 10 seconds.</msg>
-<arg>10s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-10-10T13:55:51.375956" elapsed="10.001179"/>
-</kw>
-<status status="PASS" start="2025-10-10T13:55:51.373939" elapsed="10.003579"/>
+<status status="PASS" start="2025-10-21T16:00:39.753289" elapsed="10.004719"/>
 </test>
-<test id="s1-s1-t3" name="Test Case C" line="10">
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-10-10T13:56:01.379227" level="INFO">Test Case D</msg>
-<arg>Test Case D</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-10-10T13:56:01.378836" elapsed="0.000511"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-10-10T13:56:11.380562" level="INFO">Slept 10 seconds.</msg>
-<arg>10s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-10-10T13:56:01.379655" elapsed="10.001020"/>
-</kw>
-<status status="PASS" start="2025-10-10T13:56:01.378130" elapsed="10.002682"/>
-</test>
-<status status="PASS" start="2025-10-10T13:55:41.369472" elapsed="30.011702"/>
+<status status="PASS" start="2025-10-21T16:00:39.751378" elapsed="10.007969"/>
 </suite>
-<status status="PASS" start="2025-10-10T13:55:41.357914" elapsed="30.024031"/>
+<status status="PASS" start="2025-10-21T16:00:39.733707" elapsed="10.027232"/>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="ParallelTest" id="s1" pass="3" fail="0" skip="0">ParallelTest</stat>
-<stat name="SuiteB" id="s1-s1" pass="3" fail="0" skip="0">ParallelTest.SuiteB</stat>
+<stat name="ParallelTest" id="s1" pass="1" fail="0" skip="0">ParallelTest</stat>
+<stat name="SuiteA" id="s1-s1" pass="1" fail="0" skip="0">ParallelTest.SuiteA</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-10-10T13:55:41.336369" level="ERROR">Error in file 'C:\Dev\Robotframework_Automation\TestCases\ParallelTest\SuiteA.robot' on line 2: Non-existing setting 'Test Suite Setup'.</msg>
-<msg time="2025-10-10T13:55:41.336577" level="ERROR">Error in file 'C:\Dev\Robotframework_Automation\TestCases\ParallelTest\SuiteA.robot' on line 3: Non-existing setting 'Test Suite Teardown'. Did you mean:
-    Suite Teardown</msg>
 </errors>
 </robot>

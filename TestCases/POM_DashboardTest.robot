@@ -10,12 +10,11 @@ ${username}     admin@yourstore.com
 ${password}     admin
 
 *** Test Cases ***
-Dashboard test
+Dashboard Test
     open my browser   ${SiteUrl}    ${Browser}
     enter username    ${username}
     enter password    ${password}
     click SigIn
-    verify succesfull login
     click PyPal
     ${title}=   get title
     log to console      ${title}

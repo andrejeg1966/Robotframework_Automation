@@ -15,7 +15,7 @@ ScrolingTest
     #scroll unitl end of the page
     execute javascript  window.scrollTo(0,document.body.scrollHeight)       #end of the page
     sleep   5
-    execute javascript  window.scrollTo(0,-document.body.scrollHeight)       #end of the page
+    execute javascript  window.scrollTo(0,-document.body.scrollHeight)       #begin of the page
     sleep   5
     close browser
 

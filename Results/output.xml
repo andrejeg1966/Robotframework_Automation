@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2025-10-21T16:15:03.794154" rpa="false" schemaversion="5">
+<suite id="s1" name="GoogleSearch" source="C:\Dev\Robotframework_Automation\TestCases\GoogleSearch.robot">
+<test id="s1-t1" name="This is simple test case" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-21T16:15:04.099360" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<msg time="2025-10-21T16:15:04.196778" level="WARN">The chromedriver version (140.0.7339.80) detected in PATH at C:\Program Files (x86)\Python\Python313\Scripts\chromedriver.exe might not be compatible with the detected chrome version (141.0.7390.108); currently, chromedriver 141.0.7390.78 is recommended for chrome 141.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-21T16:15:04.099173" elapsed="2.643495"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-21T16:15:06.743211" elapsed="2.171295"/>
+</kw>
+<doc>Google Test</doc>
+<tag>regression</tag>
+<status status="PASS" start="2025-10-21T16:15:04.098192" elapsed="4.817236"/>
+</test>
+<status status="PASS" start="2025-10-21T16:15:03.795562" elapsed="5.122294"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression</stat>
+</tag>
+<suite>
+<stat name="GoogleSearch" id="s1" pass="1" fail="0" skip="0">GoogleSearch</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-10-21T16:15:04.196778" level="WARN">The chromedriver version (140.0.7339.80) detected in PATH at C:\Program Files (x86)\Python\Python313\Scripts\chromedriver.exe might not be compatible with the detected chrome version (141.0.7390.108); currently, chromedriver 141.0.7390.78 is recommended for chrome 141.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>

@@ -13,7 +13,7 @@ Verify Login Fails with Invalid Creds   ${username}     ${password}     ${error_
 
 *** Keywords ***
 Invalid Login Scenarios
-    [Arguments]    ${username}     ${password}     ${error_msg}
+    [Arguments]     ${username}     ${password}     ${error_msg}
     Input Text      ${textBox_username}     ${username}
     Input Text      ${textBox_password}     ${password}
     Click Button    ${btn_login}

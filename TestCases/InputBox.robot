@@ -28,7 +28,7 @@ TestGoogle
     Open Browser    ${url_google}  ${browser}
     Wait Until Page Contains    ${url_google}
     Maximize Browser Window
-    input text  xpath://textarea[@id='APjFqb']  Facebook
+    input text      xpath://textarea[@id='APjFqb']  Facebook
     click button    xpath://input[@name='btnK']
     close browser
 

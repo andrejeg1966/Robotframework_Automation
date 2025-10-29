@@ -1,7 +1,7 @@
 *** Variables ***
 @{list}     item1 item2 item3
 @{listInt}     1 2 3 4 5 6
-@{listExitFor}     foo foo foo foo bar foo
+@{listExitFor}     foo bar foo foo foo bar foo
 
 *** Test Cases ***
 ForLoopDemo1
@@ -40,6 +40,7 @@ ForLoopWithExit2
         log to console    ${item}
         Exit For Loop If    '${item}' == 'bar'
         log to console    ${item}
+        log               ${item}
     END
 
 
